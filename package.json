@@ -6,7 +6,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup library/index.ts --format cjs,esm --dts",
     "release": "tsc && pnpm run build && changeset publish",
     "ci": "tsc && pnpm run build",
     "test": "jest --watch"
