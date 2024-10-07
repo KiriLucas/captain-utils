@@ -1,1 +1,3 @@
-export function initialPotato() { console.log('potato') };
+export function initialPotato() {
+  console.log('potato');
+}
