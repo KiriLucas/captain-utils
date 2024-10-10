@@ -1,3 +1,1 @@
-export function initialPotato() {
-  console.log('potato');
-}
+export * from './library/object/object-utils';

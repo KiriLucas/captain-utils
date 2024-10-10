@@ -10,7 +10,7 @@ export class ObjectUtilities {
     property: keyof T,
     options: OrderingOptions = new OrderingOptions(),
   ): Array<T> {
-    if (ObjectHelper.isFalsy(options.ignoreTypeValidation)) {
+    if (CommonHelper.isFalsy(options.ignoreTypeValidation)) {
       ObjectUtilsValidator.validateOrderBy(input);
     }
 
@@ -27,7 +27,7 @@ export class ObjectUtilities {
   }
 
   static isEmpty(input: unknown, options: IsEmptyOptions = new IsEmptyOptions()): boolean {
-    if (ObjectHelper.isFalsy(options.ignoreTypeValidation)) {
+    if (CommonHelper.isFalsy(options.ignoreTypeValidation)) {
       ObjectUtilsValidator.validateIsEmptyInput(input);
     }
 
