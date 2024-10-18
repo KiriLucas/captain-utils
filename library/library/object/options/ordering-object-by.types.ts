@@ -1,6 +1,6 @@
 import { OrderDirection } from '../enums/order-directions.enum';
 
-export class OrderingOptions {
+export class OrderObjectByOptions {
   /**
    * Ordering direction (ascending or descending)
    */

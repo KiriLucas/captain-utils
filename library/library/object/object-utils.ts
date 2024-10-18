@@ -2,13 +2,13 @@ import { CommonHelper } from '../../internal/common/helper/common.helper';
 import { ObjectHelper } from '../../internal/object/object.helper';
 import { ObjectUtilsValidator } from '../../internal/object/object.validator';
 import { IsEmptyOptions } from './options/is-empty-options';
-import { OrderingOptions } from './options/ordering-options.types';
+import { OrderObjectByOptions } from './options/ordering-object-by.types';
 
 export class ObjectUtilities {
   static orderObjectBy<T extends object>(
     input: Array<T>,
     property: keyof T,
-    options: OrderingOptions = new OrderingOptions(),
+    options: OrderObjectByOptions = new OrderObjectByOptions(),
   ): Array<T> {
     if (CommonHelper.isFalsy(options.ignoreTypeValidation)) {
       ObjectUtilsValidator.validateOrderBy(input);
