@@ -1,7 +1,8 @@
 import { ObjectUtilities } from '../../library';
-import { CommonHelper } from '../../src/internal/common/helper/common.helper';
-import { IsEmptyInvalidParametersException } from '../../src/internal/object/exceptions/is-empty-invalid-parameters.exception';
-import { OrderObjectByInvalidParametersException } from '../../src/internal/object/exceptions/order-object-by-invalid-parameters.exception';
+import { CommonHelper } from '../../src/common/helper/common.helper';
+import { IsEmptyInvalidParametersException } from '../../src/object/exceptions/is-empty-invalid-parameters.exception';
+import { OrderObjectByInvalidParametersException } from '../../src/object/exceptions/order-object-by-invalid-parameters.exception';
+
 import {
   ARRAY_OF_NULL,
   ARRAY_OF_UNDEFINED,
