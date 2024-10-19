@@ -1,6 +1,6 @@
-import { CommonHelper } from '../../../src/internal/common/helper/common.helper';
-import { ObjectHelper } from '../../../src/internal/object/object.helper';
-import { ObjectUtilsValidator } from '../../../src/internal/object/object.validator';
+import { CommonHelper } from '../../../src/common/helper/common.helper';
+import { ObjectHelper } from '../../../src/object/object.helper';
+import { ObjectUtilsValidator } from '../../../src/object/object.validator';
 import { IsEmptyOptions } from './options/is-empty-options';
 import { OrderObjectByOptions } from './options/ordering-object-by.types';
 
