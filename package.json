@@ -9,7 +9,7 @@
     "build": "tsup library/index.ts --format cjs,esm --dts",
     "release": "tsc && pnpm run build && changeset publish",
     "ci": "tsc && pnpm run build",
-    "test": "jest --watch"
+    "test": "jest --watch --coverage"
   },
   "keywords": [],
   "author": "",
